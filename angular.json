@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tp_sala_de_juegos": {
+    "tp-sala-de-juegos": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/tp_sala_de_juegos",
+            "outputPath": "dist/tp-sala-de-juegos",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "tp_sala_de_juegos:build:production"
+              "buildTarget": "tp-sala-de-juegos:build:production"
             },
             "development": {
-              "buildTarget": "tp_sala_de_juegos:build:development"
+              "buildTarget": "tp-sala-de-juegos:build:development"
             }
           },
           "defaultConfiguration": "development"
